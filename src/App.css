@@ -1,0 +1,101 @@
+/* src/App.css */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(17, 16, 16, 0.44);
+}
+
+.App {
+  display: flex;
+}
+
+.sidenav {
+  width: 200px;
+  padding: 20px;
+  background-color: #303030;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+} 
+
+.sidenav button {
+  margin-bottom: 30px;
+  padding: 10px;
+  width: 100%;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.sidenav button:hover {
+  background-color: #778798;
+}
+
+
+
+/* Add more styles as needed */
+/* Add this to your existing CSS or create a new CSS file */
+
+/* Add this to your existing CSS or create a new CSS file */
+
+.sub-navbar-on-right {
+  position: fixed;
+  right: 30%;
+  padding: 20px;
+  background-color: rgb(103, 121, 208);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow for a subtle effect */
+  /* Set a higher z-index to ensure it appears above other elements */
+  display: flex;
+  flex-direction: row;
+ /* align-self:flex-end; */
+  width: 48%;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.sub-navbar-on-right button {
+  margin-right: 10px; /* Adjust the margin-right value to add space between buttons */
+  padding: 10px;
+  background-color: #0659a1;
+  color: #fff;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.sub-navbar-on-right button:last-child {
+  margin-right: 0; /* Remove margin-right for the last button to avoid extra space */
+}
+
+.sub-navbar-on-right button:hover {
+  background-color: #5a6268;
+}
+
+#insertbar{
+  margin-bottom: 15px;
+  padding: 12px;
+  width: 50%;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#insertbar:hover {
+  background-color: #5a6268;
+}
+
